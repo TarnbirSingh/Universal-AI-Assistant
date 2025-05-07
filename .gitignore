@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+virtualenv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+logs/
+*.sqlite
+data/neo4j/
+data/states/
+*.db
+db/
+
+# Neo4j
+neo4j/
+neo4j*/
+*.neo4j/
+*.jar
+*.dylib
+*.so
+*.dll
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Local development
+local_settings.py
+db.sqlite3
+media/
+
+# State files
+*.state.json
+*.state
+states/
+
+# Large files and binaries
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.tgz
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.node
